@@ -1,0 +1,40 @@
+.calculator__container{
+    background-color: black;
+    width: 400px;
+    height: 800px;
+    border-radius: 40px;
+    color: white;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.display{
+    font-size: 80px;
+
+}
+.display_container{
+    height: 100px;
+
+}
+
+.button{
+    background-color: #333;
+    height:100px;
+    width: 100px;
+    font-size: 40px;
+}
+
+.button.function{
+    color: black;
+    background: #a5a5a5;
+}
+.button.operator{
+    background: #f1a33c;
+}
+
+.buttons__container{
+    height:500px;
+}
